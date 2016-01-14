@@ -73,6 +73,10 @@ if($type == 'empty_token') {
                     <button type="submit" class="btn btn-success">Save</button>
                 </div>
             </div>
+	        
+	        <hr>
+	        Status: <span style="color: green; font-weight: bold; margin-right: 50px; ">connected</span><button type="submit" name="ga-disconnect-btn" value="disconnect" class="btn btn-link" onclick="return confirm('Are you sure you want to disconnect from your Google Analytics account?');">Disconnect your Google Analytics Account</button>
+	        
         </form>
     </div>
 </div>

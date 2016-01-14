@@ -1,6 +1,6 @@
 === Google Analytics Counter Tracker ===
 Plugin Name: Google Analytics Counter Tracker
-Version: 3.0.2
+Version: 3.0.3
 Tags: Google Analytics, Analytics, Statistics, Analytics dashboard, Reports, Charts, Stats, Web stats, Visit, Audience Overview, Visitors Overview, Marketing, Google, Keywords, Counter, Tracker, Hit counter, hitcounter, visitor tracker, visitor tracking, visitors, tracking, stats, statscounter, analyse, hits, hit, track
 Requires at least: 3.9
 Tested up to: 4.4

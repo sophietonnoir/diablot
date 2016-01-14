@@ -29,7 +29,7 @@
 @media only screen and (min-width: 1920px) and (max-width: 1980px) {
 body{
 max-width:1920px;
-width:19200px;
+width:1920px;
 }
 #main{
 /*width:468px;*/
@@ -38,20 +38,31 @@ width: 100%;
 .entry-content{
   width: 1200px;
   margin-left:230px;
-  height: 600px; 
+  height: 400px; 
+  margin-top: -50px;
+}
+.container{
+  margin-left: 500px;
 }
 .test{
 float: right;
 text-align: center;
-width: 263px;
+width: 173px;
 margin: 10px;
 }
-a {
+.paris{
+font-size: 23px;
+left: 1140px;
+position: absolute;
+top: -70px;
+font-family: bold;
+}
+/*a {
   
   position:relative;
 }
 a.sport:after {
-  content:url(http://localhost:8888/diablot/wp-content/uploads/2016/01/test2-161x300.png);
+  /*content:url(http://localhost:8888/diablot/wp-content/uploads/2016/01/test2-161x300.png);
   display:none;
   position:absolute;
   left:-300px;
@@ -61,7 +72,7 @@ a.sport:after {
   margin-top: -440px;
  /* background:orange;
   padding:10px;*/
-  color:#000;
+  /*color:#000;
 }
 a.ville:after {
   content:url(http://localhost:8888/diablot/wp-content/uploads/2016/01/test3-192x300.png);
@@ -72,17 +83,31 @@ a.ville:after {
   margin-bottom:-495px;*/
   margin-top: -440px;
   min-width:200px;
-  /*background:orange;*/
+  /*background:orange;
   padding:10px;
   color:#000;
-}
+}*/
 a:hover:after {
   display:block;
+}
+a.ville:hover {
+  display:block;
+  border: solid 2px #000;
+  -moz-box-shadow: 2px 2px 5px #999; 
+  -webkit-box-shadow: 1px 1px 5px #999; 
+  box-shadow: 1px 1px 5px #999;
+}
+a.sport:hover {
+  display:block;
+  border: solid 2px #000;
+  -moz-box-shadow: 2px 2px 5px #999; 
+  -webkit-box-shadow: 1px 1px 5px #999; 
+  box-shadow: 1px 1px 5px #999;
 }
 .test1{
   float: left;
   text-align: center;
-  width: 263px;
+  width: 173px;
   margin: 10px;
   margin-left:200px;
 }
@@ -90,28 +115,148 @@ a:hover:after {
     width: 98%;
   }
   .texte{
-    margin-left:8%;
+    margin-left:33%;
   }
   .pinterest{
   margin-left: 800px;
   margin-top: -20px;
 }
 .instagram{
-  margin-top: -155px;
-  margin-left: 610px;
+  margin-top: -102px;
+  margin-left: 720px;
 }
 .facebook{
-  margin-top: -153px;
-  margin-left: 500px;
+  margin-top: -102px;
+  margin-left: 600px;
 }
 .site-title{
-   margin-right: 400px;
+   margin-right: 300px;
    text-align : center; 
    float:right;
    margin-top : -170px;
 }
 .logo{
-  height: 150px;
+  height: 250px;
+}
+.txt{
+  text-align: right;
+}
+.horaire{
+  text-align: center;
+}
+.adresse{
+  text-align: center;
+}
+a.sport #FF {
+display: none;
+top: 96px;
+left: 100px;
+}
+a.sport:hover #FF  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.sport #FF1 {
+display: none;
+top: 27px;
+left: 100px;
+}
+a.sport:hover #FF1  {
+display: inline;
+position: absolute;
+box-shadow: 8px 0px 12px #aaa;
+}
+a.sport #FF2 {
+display: none;
+top: 153px;
+left: 100px;
+}
+a.sport:hover #FF2  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.sport #EE {
+display: none;
+top: 200px;
+left: 95px;
+}
+a.sport:hover #EE  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.sport #EE1 {
+display: none;
+top: 205px;
+left: 180px;
+}
+a.sport:hover #EE1  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.ville #DD {
+display: none;
+top: -20px;
+right: 120px;
+
+}
+a.ville:hover #DD  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.ville #DD1 {
+display: none;
+top: 35px;
+right: 120px;
+}
+a.ville:hover #DD1  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.ville #DD2 {
+display: none;
+top: 85px;
+right: 120px;
+}
+a.ville:hover #DD2  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.ville #DD3 {
+display: none;
+top: 143px;
+right: 120px;
+}
+a.ville:hover #DD3  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.ville #DD4 {
+display: none;
+top: 190px;
+right: 120px;
+}
+a.ville:hover #DD4  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.ville #DD5 {
+display: none;
+top: 220px;
+right: 120px;
+}
+a.ville:hover #DD5  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
 }
 }
 
@@ -127,15 +272,23 @@ width: 100%;
 .entry-content{
   width: 1200px;
   margin-left:100px;
-  height: 600px; 
+  height: 400px; 
+  margin-top: -50px;
 }
 .test{
 float: right;
 text-align: center;
-width: 263px;
-margin: 10px;
+width: 173px;
+margin-right: 160px;
 }
-a {
+.paris{
+font-size: 23px;
+left: 1020px;
+position: absolute;
+top: -70px;
+font-family: bold;
+}
+/*a {
   
   position:relative;
 }
@@ -147,60 +300,193 @@ a.sport:after {
   /*bottom:47%;
   margin-bottom:-495px;*/
   min-width:200px;
-  margin-top: -440px;
+  margin-top: -280px;
  /* background:orange;
-  padding:10px;*/
+  padding:10px;
   color:#000;
 }
 a.ville:after {
   content:url(http://localhost:8888/diablot/wp-content/uploads/2016/01/test3-192x300.png);
   display:none;
   position:absolute;
-  left:330px;
+  left:230px;
   /*bottom:47%;
   margin-bottom:-495px;*/
-  margin-top: -440px;
+  margin-top: -280px;
   min-width:200px;
-  /*background:orange;*/
+  /*background:orange;
   padding:10px;
   color:#000;
-}
+}*/
 a:hover:after {
   display:block;
+}
+a.ville:hover {
+  display:block;
+  border: solid 2px #CCC; 
+  -moz-box-shadow: 2px 2px 5px #999; 
+  -webkit-box-shadow: 1px 1px 5px #999; 
+  box-shadow: 1px 1px 5px #999;
+}
+a.sport:hover {
+  display:block;
+  border: solid 2px #CCC; 
+  -moz-box-shadow: 2px 2px 5px #999; 
+  -webkit-box-shadow: 1px 1px 5px #999; 
+  box-shadow: 1px 1px 5px #999;
 }
 .test1{
   float: left;
   text-align: center;
-  width: 263px;
+  width: 173px;
   margin: 10px;
-  margin-left:200px;
+  margin-left:350px;
 }
  #footer-sidebar{
     width: 98%;
   }
   .texte{
-    margin-left:11%;
+    margin-left:35%;
   }
   .pinterest{
   margin-left: 800px;
   margin-top: -20px;
 }
 .instagram{
-  margin-top: -155px;
-  margin-left: 610px;
+  margin-top: -102px;
+  margin-left: 720px;
 }
 .facebook{
-  margin-top: -153px;
-  margin-left: 500px;
+  margin-top: -102px;
+  margin-left: 600px;
 }
 .site-title{
-   margin-right: 400px;
+   margin-right: 300px;
    text-align : center; 
    float:right;
    margin-top : -170px;
 }
 .logo{
-  height: 150px;
+  height: 250px;
+}
+.txt{
+  text-align: right;
+}
+.horaire{
+  text-align: center;
+}
+.adresse{
+  text-align: center;
+}
+a.sport #FF {
+display: none;
+top: 35px;
+left: 100px;
+}
+a.sport:hover #FF  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.sport #FF1 {
+display: none;
+top: 90px;
+left: 100px;
+}
+a.sport:hover #FF1  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.sport #FF2 {
+display: none;
+top: 155px;
+left: 100px;
+}
+a.sport:hover #FF2  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.sport #EE {
+display: none;
+top: 205px;
+left: 95px;
+}
+a.sport:hover #EE  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.sport #EE1 {
+display: none;
+top: 210px;
+left: 180px;
+}
+a.sport:hover #EE1  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.ville #DD {
+display: none;
+top: -50px;
+right: 100px;
+}
+a.ville:hover #DD  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.ville #DD1 {
+display: none;
+top: 5px;
+right: 100px;
+}
+a.ville:hover #DD1  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.ville #DD2 {
+display: none;
+top: 57px;
+right: 100px;
+}
+a.ville:hover #DD2  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.ville #DD3 {
+display: none;
+top: 120px;
+right: 100px;
+}
+a.ville:hover #DD3  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.ville #DD4 {
+display: none;
+top: 170px;
+right: 100px;
+}
+a.ville:hover #DD4  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.ville #DD5 {
+display: none;
+top: 220px;
+right: 100px;
+}
+a.ville:hover #DD5  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
 }
 }
 
@@ -216,15 +502,24 @@ width: 100%;
 .entry-content{
   width: 1200px;
   margin-left:90px;
-  height: 600px; 
+  height: 400px; 
+  margin-top: -50px;
 }
 .test{
 float: right;
 text-align: center;
-width: 263px;
-margin: 10px;
+width: 173px;
+margin-top: 10px;
+margin-right: 170px;
 }
-a {
+.paris{
+font-size: 23px;
+left: 950px;
+position: absolute;
+top: -90px;
+font-family: bold;
+}
+/*a {
   
   position:relative;
 }
@@ -236,9 +531,9 @@ a.sport:after {
   /*bottom:47%;
   margin-bottom:-495px;*/
   min-width:200px;
-  margin-top: -440px;
+  margin-top: -280px;
  /* background:orange;
-  padding:10px;*/
+  padding:10px;
   color:#000;
 }
 a.ville:after {
@@ -248,48 +543,181 @@ a.ville:after {
   left:330px;
   /*bottom:47%;
   margin-bottom:-495px;*/
-  margin-top: -440px;
+  margin-top: -280px;
   min-width:200px;
-  /*background:orange;*/
+  /*background:orange;
   padding:10px;
   color:#000;
-}
+}*/
 a:hover:after {
   display:block;
+}
+a.ville:hover {
+  display:block;
+  border: solid 2px #CCC; 
+  -moz-box-shadow: 2px 2px 5px #999; 
+  -webkit-box-shadow: 1px 1px 5px #999; 
+  box-shadow: 1px 1px 5px #999;
+}
+a.sport:hover {
+  display:block;
+  border: solid 2px #CCC; 
+  -moz-box-shadow: 2px 2px 5px #999; 
+  -webkit-box-shadow: 1px 1px 5px #999; 
+  box-shadow: 1px 1px 5px #999;
 }
 .test1{
   float: left;
   text-align: center;
-  width: 263px;
+  width: 173px;
   margin: 10px;
-  margin-left:200px;
+  margin-left:280px;
 }
  #footer-sidebar{
     width: 98%;
   }
   .texte{
-    margin-left:11%;
+    margin-left:36%;
   }
-  .pinterest{
+ .pinterest{
   margin-left: 800px;
   margin-top: -20px;
 }
 .instagram{
-  margin-top: -155px;
-  margin-left: 610px;
+  margin-top: -102px;
+  margin-left: 720px;
 }
 .facebook{
-  margin-top: -153px;
-  margin-left: 500px;
+  margin-top: -102px;
+  margin-left: 600px;
 }
 .site-title{
-   margin-right: 400px;
+   margin-right: 340px;
    text-align : center; 
    float:right;
    margin-top : -170px;
 }
 .logo{
-  height: 150px;
+  height: 250px;
+}
+.txt{
+  text-align: right;
+}
+.horaire{
+  text-align: center;
+}
+.adresse{
+  text-align: center;
+}
+a.sport #FF {
+display: none;
+top: 33px;
+left: 100px;
+}
+a.sport:hover #FF  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.sport #FF1 {
+display: none;
+top: 87px;
+left: 100px;
+}
+a.sport:hover #FF1  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.sport #FF2 {
+display: none;
+top: 155px;
+left: 100px;
+}
+a.sport:hover #FF2  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.sport #EE {
+display: none;
+top: 205px;
+left: 95px;
+}
+a.sport:hover #EE  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.sport #EE1 {
+display: none;
+top: 210px;
+left: 180px;
+}
+a.sport:hover #EE1  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.ville #DD {
+display: none;
+top: -50px;
+right: 130px;
+}
+a.ville:hover #DD  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.ville #DD1 {
+display: none;
+top: 5px;
+right: 130px;
+}
+a.ville:hover #DD1  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.ville #DD2 {
+display: none;
+top: 57px;
+right: 130px;
+}
+a.ville:hover #DD2  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.ville #DD3 {
+display: none;
+top: 120px;
+right: 130px;
+}
+a.ville:hover #DD3  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.ville #DD4 {
+display: none;
+top: 170px;
+right: 130px;
+}
+a.ville:hover #DD4  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.ville #DD5 {
+display: none;
+top: 220px;
+right: 130px;
+}
+a.ville:hover #DD5  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
 }
 }
 
@@ -305,16 +733,24 @@ width: 100%;
 .entry-content{
   width: 1200px;
   margin-left:90px;
-  height: 600px; 
+  height: 400px;
+   margin-top: -50px; 
 }
 .test{
 float: right;
 text-align: center;
-width: 263px;
+width: 173px;
 margin: 10px;
-margin-right: 180px;
+margin-right: 200px;
 }
-a {
+.paris{
+font-size: 23px;
+left: 950px;
+position: absolute;
+top: -90px;
+font-family: bold;
+}
+/*a {
   
   position:relative;
 }
@@ -328,58 +764,191 @@ a.sport:after {
   min-width:200px;
   margin-top: -430px;
  /* background:orange;
-  padding:10px;*/
+  padding:10px;
   color:#000;
 }
 a.ville:after {
   content:url(http://localhost:8888/diablot/wp-content/uploads/2016/01/test3-192x300.png);
   display:none;
   position:absolute;
-  left:330px;
+  left:230px;
   /*bottom:47%;
   margin-bottom:-495px;*/
   margin-top: -440px;
   min-width:200px;
-  /*background:orange;*/
+  /*background:orange;
   padding:10px;
   color:#000;
-}
+}*/
 a:hover:after {
   display:block;
+}
+a.ville:hover {
+  display:block;
+  border: solid 2px #CCC; 
+  -moz-box-shadow: 2px 2px 5px #999; 
+  -webkit-box-shadow: 1px 1px 5px #999; 
+  box-shadow: 1px 1px 5px #999;
+}
+a.sport:hover {
+  display:block;
+  border: solid 2px #CCC; 
+  -moz-box-shadow: 2px 2px 5px #999; 
+  -webkit-box-shadow: 1px 1px 5px #999; 
+  box-shadow: 1px 1px 5px #999;
 }
 .test1{
   float: left;
   text-align: center;
-  width: 263px;
+  width: 173px;
   margin: 10px;
-  margin-left:200px;
+  margin-left:220px;
 }
  #footer-sidebar{
     width: 98%;
   }
   .texte{
-    margin-left:3%;
+    margin-left:33%;
   }
-  .pinterest{
+ .pinterest{
   margin-left: 800px;
   margin-top: -20px;
 }
 .instagram{
-  margin-top: -155px;
-  margin-left: 610px;
+  margin-top: -102px;
+  margin-left: 720px;
 }
 .facebook{
-  margin-top: -153px;
-  margin-left: 500px;
+  margin-top: -102px;
+  margin-left: 600px;
 }
 .site-title{
-   margin-right: 400px;
+   margin-right: 290px;
    text-align : center; 
    float:right;
    margin-top : -170px;
 }
 .logo{
-  height: 150px;
+  height: 250px;
+}
+.txt{
+  text-align: right;
+}
+.horaire{
+  text-align: center;
+}
+.adresse{
+  text-align: center;
+}
+a.sport #FF {
+display: none;
+top: -10px;
+left: 100px;
+}
+a.sport:hover #FF  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.sport #FF1 {
+display: none;
+top: 45px;
+left: 100px;
+}
+a.sport:hover #FF1  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.sport #FF2 {
+display: none;
+top: 110px;
+left: 100px;
+}
+a.sport:hover #FF2  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.sport #EE {
+display: none;
+top: 160px;
+left: 95px;
+}
+a.sport:hover #EE  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.sport #EE1 {
+display: none;
+top: 155px;
+left: 180px;
+}
+a.sport:hover #EE1  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.ville #DD {
+display: none;
+top: -80px;
+right: 100px;
+}
+a.ville:hover #DD  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.ville #DD1 {
+display: none;
+top: -25px;
+right: 100px;
+}
+a.ville:hover #DD1  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.ville #DD2 {
+display: none;
+top: 27px;
+right: 100px;
+}
+a.ville:hover #DD2  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.ville #DD3 {
+display: none;
+top: 90px;
+right: 100px;
+}
+a.ville:hover #DD3  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.ville #DD4 {
+display: none;
+top: 140px;
+right: 100px;
+}
+a.ville:hover #DD4  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.ville #DD5 {
+display: none;
+top: 190px;
+right: 100px;
+}
+a.ville:hover #DD5  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
 }
 }
 
@@ -395,16 +964,23 @@ width: 100%;
 .entry-content{
   width: 1200px;
   margin-left:80px;
-  height: 600px; 
+  height: 400px; 
 }
 .test{
 float: right;
 text-align: center;
-width: 263px;
+width: 173px;
 margin: 10px;
-margin-right: 220px;
+margin-right: 230px;
 }
-a {
+.paris{
+font-size: 23px;
+left: 900px;
+position: absolute;
+top: -70px;
+font-family: bold;
+}
+/*a {
   
   position:relative;
 }
@@ -418,7 +994,7 @@ a.sport:after {
   min-width:200px;
   margin-top: -440px;
  /* background:orange;
-  padding:10px;*/
+  padding:10px;
   color:#000;
 }
 a.ville:after {
@@ -430,17 +1006,31 @@ a.ville:after {
   margin-bottom:-495px;*/
   margin-top: -440px;
   min-width:200px;
-  /*background:orange;*/
+  /*background:orange;
   padding:10px;
   color:#000;
-}
-a:hover:after {
+}*/
+a.ville:hover {
   display:block;
+  border: solid 2px #CCC; 
+  -moz-box-shadow: 2px 2px 5px #999; 
+  -webkit-box-shadow: 1px 1px 5px #999; 
+  box-shadow: 1px 1px 5px #999;
+}
+a:hover:after{
+  display: block;
+}
+a.sport:hover {
+  display:block;
+  border: solid 2px #CCC; 
+  -moz-box-shadow: 2px 2px 5px #999; 
+  -webkit-box-shadow: 1px 1px 5px #999; 
+  box-shadow: 1px 1px 5px #999;
 }
 .test1{
   float: left;
   text-align: center;
-  width: 263px;
+  width: 173px;
   margin: 10px;
   margin-left:200px;
 }
@@ -448,31 +1038,150 @@ a:hover:after {
     width: 100%;
   }
   .texte{
-    margin-left:4%;
+    margin-left:34%;
   }
-  .pinterest{
-  margin-left: 700px;
+.pinterest{
+  margin-left: 800px;
   margin-top: -20px;
 }
 .instagram{
-  margin-top: -155px;
-  margin-left: 510px;
+  margin-top: -102px;
+  margin-left: 720px;
 }
 .facebook{
-  margin-top: -153px;
-  margin-left: 400px;
+  margin-top: -102px;
+  margin-left: 600px;
 }
 .textwidget{
 margin-left: 22px;
 }
 .site-title{
-   margin-right: 400px;
+   margin-right: 300px;
    text-align : center; 
    float:right;
    margin-top : -170px;
 }
 .logo{
-  height: 150px;
+  height: 250px;
+}
+.txt{
+  text-align: right;
+}
+.horaire{
+  text-align: center;
+}
+.adresse{
+  text-align: center;
+}
+a.sport #FF {
+display: none;
+top: 35px;
+left: 100px;
+}
+a.sport:hover #FF  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.sport #FF1 {
+display: none;
+top: 90px;
+left: 100px;
+}
+a.sport:hover #FF1  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.sport #FF2 {
+display: none;
+top: 155px;
+left: 100px;
+}
+a.sport:hover #FF2  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.sport #EE {
+display: none;
+top: 205px;
+left: 95px;
+}
+a.sport:hover #EE  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.sport #EE1 {
+display: none;
+top: 210px;
+left: 180px;
+}
+a.sport:hover #EE1  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.ville #DD {
+display: none;
+top: -50px;
+right: 100px;
+}
+a.ville:hover #DD  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.ville #DD1 {
+display: none;
+top: 5px;
+right: 100px;
+}
+a.ville:hover #DD1  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.ville #DD2 {
+display: none;
+top: 57px;
+right: 100px;
+}
+a.ville:hover #DD2  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.ville #DD3 {
+display: none;
+top: 120px;
+right: 100px;
+}
+a.ville:hover #DD3  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.ville #DD4 {
+display: none;
+top: 170px;
+right: 100px;
+}
+a.ville:hover #DD4  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.ville #DD5 {
+display: none;
+top: 220px;
+right: 100px;
+}
+a.ville:hover #DD5  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
 }
 }
 
@@ -488,16 +1197,23 @@ width: 100%;
 .entry-content{
   width: 1200px;
   margin-left:80px;
-  height: 600px; 
+  height: 400px; 
 }
 .test{
 float: right;
 text-align: center;
-width: 263px;
+width: 173px;
 margin: 10px;
 margin-right: 300px;
 }
-a {
+.paris{
+font-size: 23px;
+left: 900px;
+position: absolute;
+top: -70px;
+font-family: bold;
+}
+/*a {
   
   position:relative;
 }
@@ -511,7 +1227,7 @@ a.sport:after {
   min-width:200px;
   margin-top: -440px;
  /* background:orange;
-  padding:10px;*/
+  padding:10px;
   color:#000;
 }
 a.ville:after {
@@ -523,17 +1239,31 @@ a.ville:after {
   margin-bottom:-495px;*/
   margin-top: -440px;
   min-width:200px;
-  /*background:orange;*/
+  /*background:orange;
   padding:10px;
   color:#000;
-}
+}*/
 a:hover:after {
   display:block;
+}
+a.ville:hover {
+  display:block;
+  border: solid 2px #CCC; 
+  -moz-box-shadow: 2px 2px 5px #999; 
+  -webkit-box-shadow: 1px 1px 5px #999; 
+  box-shadow: 1px 1px 5px #999;
+}
+a.sport:hover {
+  display:block;
+  border: solid 2px #CCC; 
+  -moz-box-shadow: 2px 2px 5px #999; 
+  -webkit-box-shadow: 1px 1px 5px #999; 
+  box-shadow: 1px 1px 5px #999;
 }
 .test1{
   float: left;
   text-align: center;
-  width: 263px;
+  width: 173px;
   margin: 10px;
   margin-left:200px;
 }
@@ -541,31 +1271,151 @@ a:hover:after {
     width: 100%;
   }
   .texte{
-    margin-left:4%;
+    margin-left:34%;
   }
-  .pinterest{
-  margin-left: 700px;
+.pinterest{
+  margin-left: 800px;
   margin-top: -20px;
 }
 .instagram{
-  margin-top: -155px;
-  margin-left: 510px;
+  margin-top: -102px;
+  margin-left: 720px;
 }
 .facebook{
-  margin-top: -153px;
-  margin-left: 400px;
+  margin-top: -102px;
+  margin-left: 600px;
 }
 .textwidget{
 margin-left: 22px;
 }
 .site-title{
-   margin-right: 400px;
+   margin-right: 300px;
    text-align : center; 
    float:right;
    margin-top : -170px;
 }
 .logo{
-  height: 150px;
+  height: 240px;
+}
+.txt{
+  text-align: right;
+  margin-right: 40px;
+}
+.horaire{
+  text-align: center;
+}
+.adresse{
+  text-align: center;
+}
+a.sport #FF {
+display: none;
+top: 35px;
+left: 100px;
+}
+a.sport:hover #FF  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.sport #FF1 {
+display: none;
+top: 90px;
+left: 100px;
+}
+a.sport:hover #FF1  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.sport #FF2 {
+display: none;
+top: 155px;
+left: 100px;
+}
+a.sport:hover #FF2  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.sport #EE {
+display: none;
+top: 205px;
+left: 95px;
+}
+a.sport:hover #EE  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.sport #EE1 {
+display: none;
+top: 210px;
+left: 180px;
+}
+a.sport:hover #EE1  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.ville #DD {
+display: none;
+top: -50px;
+right: 100px;
+}
+a.ville:hover #DD  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.ville #DD1 {
+display: none;
+top: 5px;
+right: 100px;
+}
+a.ville:hover #DD1  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.ville #DD2 {
+display: none;
+top: 57px;
+right: 100px;
+}
+a.ville:hover #DD2  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.ville #DD3 {
+display: none;
+top: 120px;
+right: 100px;
+}
+a.ville:hover #DD3  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.ville #DD4 {
+display: none;
+top: 170px;
+right: 100px;
+}
+a.ville:hover #DD4  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.ville #DD5 {
+display: none;
+top: 220px;
+right: 100px;
+}
+a.ville:hover #DD5  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
 }
 }
 
@@ -581,16 +1431,23 @@ width: 100%;
 .entry-content{
   width: 1200px;
   margin-left:50px;
-  height: 600px; 
+  height: 400px; 
 }
 .test{
 float: right;
 text-align: center;
-width: 200px;
+width: 173px;
 margin: 10px;
 margin-right: 500px;
 }
-a {
+.paris{
+font-size: 23px;
+left: 730px;
+position: absolute;
+top: -70px;
+font-family: bold;
+}
+/*a {
   
   position:relative;
 }
@@ -604,7 +1461,7 @@ a.sport:after {
   min-width:200px;
   margin-top: -325px;
  /* background:orange;
-  padding:10px;*/
+  padding:10px;
   color:#000;
 }
 a.ville:after {
@@ -616,49 +1473,184 @@ a.ville:after {
   margin-bottom:-495px;*/
   margin-top: -335px;
   min-width:200px;
-  /*background:orange;*/
+  /*background:orange;
   padding:10px;
   color:#000;
-}
+}*/
 a:hover:after {
   display:block;
+}
+a.ville:hover {
+  display:block;
+  border: solid 2px #CCC; 
+  -moz-box-shadow: 2px 2px 5px #999; 
+  -webkit-box-shadow: 1px 1px 5px #999; 
+  box-shadow: 1px 1px 5px #999;
+}
+a.sport:hover {
+  display:block;
+  border: solid 2px #CCC; 
+  -moz-box-shadow: 2px 2px 5px #999; 
+  -webkit-box-shadow: 1px 1px 5px #999; 
+  box-shadow: 1px 1px 5px #999;
 }
 .test1{
   float: left;
   text-align: center;
-  width: 200px;
+  width: 173px;
   margin: 10px;
-  margin-left:170px;
+  margin-left:200px;
 }
  #footer-sidebar{
     width: 100%;
   }
   .texte{
-    margin-left:2%;
+    margin-left:35%;
   }
-  .pinterest{
+ .pinterest{
   margin-left: 600px;
   margin-top: -20px;
 }
 .instagram{
-  margin-top: -155px;
-  margin-left: 410px;
+  margin-top: -102px;
+  margin-left: 520px;
 }
 .facebook{
-  margin-top: -153px;
-  margin-left: 300px;
+  margin-top: -102px;
+  margin-left: 400px;
 }
 .textwidget{
 margin-left: 22px;
 }
 .site-title{
-   margin-right: 310px;
+   margin-right: 200px;
    text-align : center; 
    float:right;
    margin-top : -170px;
 }
 .logo{
-  height: 150px;
+  height: 220px;
+}
+.txt{
+  text-align: right;
+  margin-right: 270px;
+}
+.horaire{
+  text-align: center;
+  margin-right: 380px;
+}
+.adresse{
+  text-align: center;
+}
+a.sport #FF {
+display: none;
+top: 35px;
+left: 80px;
+}
+a.sport:hover #FF  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.sport #FF1 {
+display: none;
+top: 90px;
+left: 80px;
+}
+a.sport:hover #FF1  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.sport #FF2 {
+display: none;
+top: 155px;
+left: 80px;
+}
+a.sport:hover #FF2  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.sport #EE {
+display: none;
+top: 205px;
+left: 75px;
+}
+a.sport:hover #EE  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.sport #EE1 {
+display: none;
+top: 210px;
+left: 160px;
+}
+a.sport:hover #EE1  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.ville #DD {
+display: none;
+top: -40px;
+right: 85px;
+}
+a.ville:hover #DD  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.ville #DD1 {
+display: none;
+top: 15px;
+right: 85px;
+}
+a.ville:hover #DD1  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.ville #DD2 {
+display: none;
+top: 67px;
+right: 85px;
+}
+a.ville:hover #DD2  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.ville #DD3 {
+display: none;
+top: 130px;
+right: 85px;
+}
+a.ville:hover #DD3  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.ville #DD4 {
+display: none;
+top: 180px;
+right: 85px;
+}
+a.ville:hover #DD4  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.ville #DD5 {
+display: none;
+top: 230px;
+right: 85px;
+}
+a.ville:hover #DD5  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
 }
 }
 
@@ -683,7 +1675,14 @@ width: 150px;
 margin: 10px;
 margin-right: 700px;
 }
-a {
+.paris{
+font-size: 23px;
+left: 590px;
+position: absolute;
+top: -50px;
+font-family: bold;
+}
+/*a {
   
   position:relative;
 }
@@ -697,7 +1696,7 @@ a.sport:after {
   min-width:200px;
   margin-top: -265px;
  /* background:orange;
-  padding:10px;*/
+  padding:10px;
   color:#000;
 }
 a.ville:after {
@@ -709,12 +1708,26 @@ a.ville:after {
   margin-bottom:-495px;*/
   margin-top: -275px;
   min-width:200px;
-  /*background:orange;*/
+  /*background:orange;
   padding:10px;
   color:#000;
-}
+}*/
 a:hover:after {
   display:block;
+}
+a.ville:hover {
+  display:block;
+  border: solid 2px #CCC; 
+  -moz-box-shadow: 2px 2px 5px #999; 
+  -webkit-box-shadow: 1px 1px 5px #999; 
+  box-shadow: 1px 1px 5px #999;
+}
+a.sport:hover {
+  display:block;
+  border: solid 2px #CCC; 
+  -moz-box-shadow: 2px 2px 5px #999; 
+  -webkit-box-shadow: 1px 1px 5px #999; 
+  box-shadow: 1px 1px 5px #999;
 }
 .test1{
   float: left;
@@ -727,37 +1740,157 @@ a:hover:after {
     width: 100%;
   }
   .texte{
-    margin-left:2%;
+    margin-left:32%;
   }
   .pinterest{
-  margin-left: 300px;
-  margin-top: -20px;
-  width: 80px;
+  margin-left: 280px;
+  margin-top: 60px;
+  width: 160px;
   height: 80px;
 }
 .instagram{
 margin-top: -93px;
-margin-left: 200px;
+margin-left: 202px;
 width: 130px;
 height: 100px;
 }
 .facebook{
  margin-top: -130px;
-margin-left: 135px;
-width: 85px;
-height: 85px;
+margin-left: 80px;
 }
 .textwidget{
 margin-left: 22px;
 }
 .site-title{
-   margin-right: 180px;
+   margin-right: 100px;
    text-align : center; 
    float:right;
    margin-top : -170px;
 }
 .logo{
-  height: 150px;
+  height: 200px;
+}
+.txt{
+  text-align: right;
+  margin-right: 490px;
+}
+.horaire{
+  text-align: center;
+  margin-right: 380px;
+}
+.adresse{
+  text-align: center;
+  margin-right: 300px;
+}
+a.sport #FF {
+display: none;
+top: 35px;
+left: 40px;
+}
+a.sport:hover #FF  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.sport #FF1 {
+display: none;
+top: 90px;
+left: 40px;
+}
+a.sport:hover #FF1  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.sport #FF2 {
+display: none;
+top: 155px;
+left: 40px;
+}
+a.sport:hover #FF2  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.sport #EE {
+display: none;
+top: 205px;
+left: 35px;
+}
+a.sport:hover #EE  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.sport #EE1 {
+display: none;
+top: 210px;
+left: 120px;
+}
+a.sport:hover #EE1  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.ville #DD {
+display: none;
+top: -20px;
+right: 60px;
+}
+a.ville:hover #DD  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.ville #DD1 {
+display: none;
+top: 20px;
+right: 60px;
+}
+a.ville:hover #DD1  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.ville #DD2 {
+display: none;
+top: 70px;
+right: 60px;
+}
+a.ville:hover #DD2  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.ville #DD3 {
+display: none;
+top: 130px;
+right: 60px;
+}
+a.ville:hover #DD3  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.ville #DD4 {
+display: none;
+top: 170px;
+right: 60px;
+}
+a.ville:hover #DD4  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.ville #DD5 {
+display: none;
+top: 210px;
+right: 60px;
+}
+a.ville:hover #DD5  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
 }
 }
 
@@ -780,9 +1913,16 @@ float: right;
 text-align: center;
 width: 150px;
 margin: 10px;
-margin-right: 710px;
+margin-right: 690px;
 }
-a {
+.paris{
+font-size: 23px;
+left: 590px;
+position: absolute;
+top: -50px;
+font-family: bold;
+}
+/*a {
   
   position:relative;
 }
@@ -796,7 +1936,7 @@ a.sport:after {
   min-width:200px;
   margin-top: -265px;
  /* background:orange;
-  padding:10px;*/
+  padding:10px;
   color:#000;
 }
 a.ville:after {
@@ -808,55 +1948,189 @@ a.ville:after {
   margin-bottom:-495px;*/
   margin-top: -275px;
   min-width:200px;
-  /*background:orange;*/
+  /*background:orange;
   padding:10px;
   color:#000;
-}
+}*/
 a:hover:after {
   display:block;
+}
+a.ville:hover {
+  display:block;
+  border: solid 2px #CCC; 
+  -moz-box-shadow: 2px 2px 5px #999; 
+  -webkit-box-shadow: 1px 1px 5px #999; 
+  box-shadow: 1px 1px 5px #999;
+}
+a.sport:hover {
+  display:block;
+  border: solid 2px #CCC; 
+  -moz-box-shadow: 2px 2px 5px #999; 
+  -webkit-box-shadow: 1px 1px 5px #999; 
+  box-shadow: 1px 1px 5px #999;
 }
 .test1{
   float: left;
   text-align: center;
   width: 150px;
   margin: 10px;
-  margin-left:160px;
+  margin-left:180px;
 }
  #footer-sidebar{
     width: 100%;
   }
   .texte{
-    margin-left:2%;
+    margin-left:32%;
   }
-  .pinterest{
-  margin-left: 300px;
-  margin-top: -20px;
-  width: 80px;
+ .pinterest{
+  margin-left: 260px;
+  margin-top: 60px;
+  width: 160px;
   height: 80px;
 }
 .instagram{
 margin-top: -93px;
-margin-left: 200px;
+margin-left: 202px;
 width: 130px;
 height: 100px;
 }
 .facebook{
  margin-top: -130px;
-margin-left: 135px;
-width: 85px;
-height: 85px;
+margin-left: 80px;
 }
 .textwidget{
 margin-left: 22px;
 }
 .site-title{
-   margin-right: 180px;
+   margin-right: 120px;
    text-align : center; 
    float:right;
    margin-top : -170px;
 }
 .logo{
-  height: 150px;
+  height: 200px;
+}
+.txt{
+  text-align: right;
+  margin-right: 490px;
+}
+.horaire{
+  text-align: center;
+  margin-right: 380px;
+}
+.adresse{
+  text-align: center;
+  margin-right: 300px;
+}
+a.sport #FF {
+display: none;
+top: 35px;
+left: 40px;
+}
+a.sport:hover #FF  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.sport #FF1 {
+display: none;
+top: 90px;
+left: 40px;
+}
+a.sport:hover #FF1  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.sport #FF2 {
+display: none;
+top: 155px;
+left: 40px;
+}
+a.sport:hover #FF2  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.sport #EE {
+display: none;
+top: 205px;
+left: 35px;
+}
+a.sport:hover #EE  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.sport #EE1 {
+display: none;
+top: 210px;
+left: 120px;
+}
+a.sport:hover #EE1  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.ville #DD {
+display: none;
+top: -20px;
+right: 40px;
+}
+a.ville:hover #DD  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.ville #DD1 {
+display: none;
+top: 20px;
+right: 40px;
+}
+a.ville:hover #DD1  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.ville #DD2 {
+display: none;
+top: 70px;
+right: 40px;
+}
+a.ville:hover #DD2  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.ville #DD3 {
+display: none;
+top: 130px;
+right: 40px;
+}
+a.ville:hover #DD3  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.ville #DD4 {
+display: none;
+top: 170px;
+right: 40px;
+}
+a.ville:hover #DD4  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.ville #DD5 {
+display: none;
+top: 210px;
+right: 40px;
+}
+a.ville:hover #DD5  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
 }
 }
 
@@ -881,7 +2155,14 @@ width: 150px;
 margin: 10px;
 margin-right: 930px;
 }
-a {
+.paris{
+font-size: 23px;
+left: 440px;
+position: absolute;
+top: -40px;
+font-family: bold;
+}
+/*a {
   
   position:relative;
 }
@@ -895,7 +2176,7 @@ a.sport:after {
   min-width:200px;
   margin-top: -265px;
  /* background:orange;
-  padding:10px;*/
+  padding:10px;
   color:#000;
 }
 a.ville:after {
@@ -907,12 +2188,26 @@ a.ville:after {
   margin-bottom:-495px;*/
   margin-top: -275px;
   min-width:200px;
-  /*background:orange;*/
+  /*background:orange;
   padding:10px;
   color:#000;
-}
+}*/
 a:hover:after {
   display:block;
+}
+a.ville:hover {
+  display:block;
+  border: solid 2px #CCC; 
+  -moz-box-shadow: 2px 2px 5px #999; 
+  -webkit-box-shadow: 1px 1px 5px #999; 
+  box-shadow: 1px 1px 5px #999;
+}
+a.sport:hover {
+  display:block;
+  border: solid 2px #CCC; 
+  -moz-box-shadow: 2px 2px 5px #999; 
+  -webkit-box-shadow: 1px 1px 5px #999; 
+  box-shadow: 1px 1px 5px #999;
 }
 .test1{
 float: left;
@@ -925,39 +2220,159 @@ margin-left: 120px;
     width: 100%;
   }
   .texte{
-    margin-left: 2%;
+    margin-left: 19%;
 margin-top: 270px;
   }
-  .pinterest{
-  margin-left: 300px;
-  margin-top: -20px;
-  width: 80px;
+ .pinterest{
+  margin-left: 260px;
+  margin-top: 60px;
+  width: 160px;
   height: 80px;
 }
 .instagram{
 margin-top: -93px;
-margin-left: 200px;
+margin-left: 202px;
 width: 130px;
 height: 100px;
 }
 .facebook{
  margin-top: -130px;
-margin-left: 135px;
-width: 85px;
-height: 85px;
+margin-left: 80px;
 }
 .textwidget{
 margin-left: 45px;
 margin-top: 220px;
 }
 .site-title{
-   margin-right: 0px;
+   margin-right: -10px;
    text-align : center; 
    float:right;
    margin-top : -170px;
 }
 .logo{
-  height: 150px;
+  height: 175px;
+}
+.txt{
+  text-align: right;
+  margin-right: 750px;
+}
+.horaire{
+  text-align: center;
+  margin-right: 600px;
+}
+.adresse{
+  text-align: center;
+  margin-right: 500px;
+}
+a.sport #FF {
+display: none;
+top: 20px;
+left: 20px;
+}
+a.sport:hover #FF  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.sport #FF1 {
+display: none;
+top: 75px;
+left: 20px;
+}
+a.sport:hover #FF1  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.sport #FF2 {
+display: none;
+top: 140px;
+left: 20px;
+}
+a.sport:hover #FF2  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.sport #EE {
+display: none;
+top: 190px;
+left: 15px;
+}
+a.sport:hover #EE  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.sport #EE1 {
+display: none;
+top: 210px;
+left: 100px;
+}
+a.sport:hover #EE1  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.ville #DD {
+display: none;
+top: 290px;
+right: 10px;
+}
+a.ville:hover #DD  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.ville #DD1 {
+display: none;
+top: 340px;
+right: 10px;
+}
+a.ville:hover #DD1  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.ville #DD2 {
+display: none;
+top: 390px;
+right: 10px;
+}
+a.ville:hover #DD2  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.ville #DD3 {
+display: none;
+top: 450px;
+right: 10px;
+}
+a.ville:hover #DD3  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.ville #DD4 {
+display: none;
+top: 495px;
+right: 10px;
+}
+a.ville:hover #DD4  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.ville #DD5 {
+display: none;
+top: 535px;
+right: 10px;
+}
+a.ville:hover #DD5  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
 }
 }
 
@@ -972,7 +2387,7 @@ width: 100%;
 }
 .entry-content{
   width: 1200px;
-  margin-left:50px;
+  margin-left:20px;
   height: 400px; 
 }
 .test{
@@ -980,9 +2395,16 @@ float: right;
 text-align: center;
 width: 150px;
 margin: 10px;
-margin-right: 1030px;
+margin-right: 990px;
 }
-a {
+.paris{
+font-size: 23px;
+left: 240px;
+position: absolute;
+top: -40px;
+font-family: bold;
+}
+/*a {
   
   position:relative;
 }
@@ -996,7 +2418,7 @@ a.sport:after {
   min-width:200px;
   margin-top: -205px;
  /* background:orange;
-  padding:10px;*/
+  padding:10px;
   color:#000;
 }
 a.ville:after {
@@ -1008,10 +2430,10 @@ a.ville:after {
   margin-bottom:-495px;*/
   margin-top: -205px;
   min-width:200px;
-  /*background:orange;*/
+  /*background:orange;
   padding:10px;
   color:#000;
-}
+}*/
 a:hover:after {
   display:block;
 }
@@ -1020,32 +2442,30 @@ float: left;
 text-align: center;
 width: 150px;
 margin: 10px;
-margin-left: 20px;
+margin-left: 50px;
 }
  #footer-sidebar{
     width: 100%;
   }
   .texte{
-    margin-left: 2%;
+    margin-left: 12%;
 margin-top: 290px;
   }
   .pinterest{
-  margin-left: 190px;
-  margin-top: -20px;
-  width: 80px;
+  margin-left: 180px;
+  margin-top: 60px;
+  width: 160px;
   height: 80px;
 }
 .instagram{
 margin-top: -93px;
-margin-left: 80px;
+margin-left: 90px;
 width: 130px;
 height: 100px;
 }
 .facebook{
  margin-top: -130px;
-margin-left: 20px;
-width: 85px;
-height: 85px;
+margin-left: -50px;
 }
 .textwidget{
 margin-left: 45px;
@@ -1055,10 +2475,143 @@ margin-top: 240px;
    text-align : center;
 }
 .logo{
-  height: 150px;
+  height: 175px;
 }
 .logo1{
   display: none;
+}
+.txt{
+  text-align: right;
+  margin-right: 950px;
+}
+.horaire{
+  text-align: center;
+  margin-right: 920px;
+}
+.adresse{
+  text-align: center;
+  margin-right: 900px;
+}
+a.sport #FF {
+display: none;
+top: 50px;
+left: 0px;
+width: 80px;
+}
+a.sport:hover #FF  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.sport #FF1 {
+display: none;
+top: 95px;
+left: 5px;
+width: 70px;
+}
+a.sport:hover #FF1  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.sport #FF2 {
+display: none;
+top: 140px;
+left: 0px;
+width: 80px;
+}
+a.sport:hover #FF2  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.sport #EE {
+display: none;
+top: 180px;
+left: 10px;
+width: 70px;
+}
+a.sport:hover #EE  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.sport #EE1 {
+display: none;
+top: 200px;
+left: 15px;
+width: 60px;
+}
+a.sport:hover #EE1  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.ville #DD {
+display: none;
+top: 345px;
+right: -5px;
+width: 75px;
+}
+a.ville:hover #DD  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.ville #DD1 {
+display: none;
+top: 375px;
+right: 0px;
+width: 75px;
+}
+a.ville:hover #DD1  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.ville #DD2 {
+display: none;
+top: 400px;
+right: 0px;
+width: 75px;
+}
+a.ville:hover #DD2  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.ville #DD3 {
+display: none;
+top: 435px;
+right: 0px;
+width: 75px;
+}
+a.ville:hover #DD3  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.ville #DD4 {
+display: none;
+top: 465px;
+right: 0px;
+width: 75px;
+}
+a.ville:hover #DD4  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
+}
+a.ville #DD5 {
+display: none;
+top: 490px;
+right: 0px;
+width: 75px;
+}
+a.ville:hover #DD5  {
+display: inline;
+position: absolute;
+ box-shadow: 8px 8px 12px #aaa;
 }
 }
 

@@ -5,6 +5,7 @@ class WPAdm_GA
     const URL_GA_SERVER = 'http://secure.wpadm.com/ga/';
     const URL_GA_AUTH = 'http://secure.wpadm.com/ga.php';
     const URL_GA_PUB_KEY = 'http://secure.wpadm.com/ga/getPubKey';
+
     const EMAIL_SUPPORT = 'support@wpadm.com';
 
     const REQUEST_PARAM_NAME = 'wpadm_ga_request';
@@ -82,6 +83,10 @@ class WPAdm_GA
             && isset($_POST['form_name'])
             && 'ga-account' == $_POST['form_name']
         ) {
+	        if ('disconnect' == filter_input(INPUT_POST, 'ga-disconnect-btn', FILTER_SANITIZE_STRING)) {
+		        self::googleAnalyticsDisconnect();
+		        return;
+	        }
             $id = filter_input(INPUT_POST, 'ga-id', FILTER_SANITIZE_NUMBER_INT);
             $url = filter_input(INPUT_POST, 'ga-url', FILTER_SANITIZE_URL);
             $webPropertyId = filter_input(INPUT_POST, 'ga-webPropertyId', FILTER_SANITIZE_STRING);
@@ -288,6 +293,50 @@ class WPAdm_GA
     }
 
 
+    protected static function googleAnalyticsDisconnect() {
+        self::sendRequest(self::URL_GA_SERVER . 'disconnect', array(
+            'action' => 'disconnect',
+            'refer'=>self::getCurUrl()
+        ));
+
+	    WPAdm_GA_Options::setGAId(null);
+	    WPAdm_GA_Options::setGAWebPropertyId(null);
+	    WPAdm_GA_Options::setGAUrl(null);
+	    WPAdm_GA_Options::setGAAccessToken(null);
+	    WPAdm_GA_Options::setGACreated(null);
+	    WPAdm_GA_Options::setGAEnableCode(null);
+	    WPAdm_GA_Options::setGATypeCode(null);
+
+	    header('location: ' . self::getCurUrl());
+
+    }
+
+    protected static function sendRequest($url, array $params) {
+        $data = base64_encode(serialize($params));
+        $req = array(
+            'data' => $data,
+            'sign' => self::getSignature(get_option('wpadm_ga_pub_key'), $data),
+            'refer'=>self::getCurUrl(),
+        );
+
+	    
+	    echo '<!-- start dump --><pre><small>' . __FILE__ . "</small>\n";
+	    print_r($url);
+	    echo '</pre><!-- end dump -->';
+	    
+        $response = wp_remote_post($url, array(
+            'method' => 'POST',
+            'timeout' => 45,
+            'body' => $req
+        ));
+
+//        if ( is_wp_error( $response ) ) {
+//            $error_message = $response->get_error_message();
+//        } else {
+//        }
+
+    }
+
 
     protected static function requireFiles() {
         require_once( WPADM_GA__PLUGIN_DIR . 'class.wpadm-ga-options.php' );
@@ -300,7 +349,7 @@ class WPAdm_GA
         
     }
 
-public static function registerPluginStyles() {
+    public static function registerPluginStyles() {
         wp_register_style( 'wpadm-ga-css', plugins_url(WPADM_GA__PLUGIN_NAME. '/view/scripts/wpadm-ga.css' ) );
         wp_enqueue_style( 'wpadm-ga-css' );
 
@@ -414,7 +463,7 @@ public static function registerPluginStyles() {
         return null;
     }
 
-    function getParamsForRequest($data) {
+    protected static function getParamsForRequest($data) {
         $params = array(
             'data' => $data,
             'sign' => self::getSSLSign($data)
@@ -423,7 +472,7 @@ public static function registerPluginStyles() {
         return array(REQUEST_PARAM_NAME => base64_encode(serialize($params)));
     }
     
-    function getSSLSign($data) {
+    protected static function getSSLSign($data) {
         $str = md5(serialize($data));
         if(function_exists('openssl_public_encrypt')) {
             openssl_public_encrypt($str, $sign, get_option('wpadm_ga_pub_key'));
@@ -450,6 +499,22 @@ public static function registerPluginStyles() {
             $rsa->loadKey($pub_key);
             $rsa->setEncryptionMode(CRYPT_RSA_ENCRYPTION_PKCS1);
             return ($rsa->decrypt($sign) == $text);
+        }
+    }
+
+    protected static function getSignature($pub_key, $text) {
+        if (function_exists('openssl_public_encrypt')) {
+            $signature = '';
+            openssl_public_encrypt($text, $signature, $pub_key);
+            return $signature;
+        } else 
+        {
+            set_include_path(get_include_path() . PATH_SEPARATOR . dirname(__FILE__) . '/lib/phpseclib');
+            require_once dirname(__FILE__) . DIRECTORY_SEPARATOR . 'lib'.DIRECTORY_SEPARATOR . 'phpseclib' . DIRECTORY_SEPARATOR . 'Crypt'.DIRECTORY_SEPARATOR.'RSA.php';
+            $rsa = new Crypt_RSA();
+            $rsa->loadKey($pub_key);
+            $rsa->setEncryptionMode(CRYPT_RSA_ENCRYPTION_PKCS1);
+            return $rsa->encrypt($text);
         }
     }
 
