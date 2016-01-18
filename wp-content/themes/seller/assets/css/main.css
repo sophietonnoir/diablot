@@ -55,7 +55,7 @@ font-size: 23px;
 left: 1140px;
 position: absolute;
 top: -70px;
-font-family: bold;
+font-family: Calibri,'Open Sans', Arial, sans-serif;
 }
 /*a {
   
@@ -157,8 +157,8 @@ a.sport:hover {
 }
 a.sport #FF {
 display: none;
-top: -35px;
-left: 315px;
+top: -55px;
+left: 330px;
 }
 a.sport:hover #FF  {
 display: inline;
@@ -167,8 +167,8 @@ position: absolute;
 }
 a.sport #FF1 {
 display: none;
-top: 25px;
-left: 315px;
+top: -15px;
+left: 330px;
 }
 a.sport:hover #FF1  {
 display: inline;
@@ -177,33 +177,50 @@ position: absolute;
 }
 a.sport #FF2 {
 display: none;
-top: 90px;
-left: 315px;
+top: 28px;
+left: 310px;
 }
 a.sport:hover #FF2  {
 display: inline;
 position: absolute;
 
 }
-a.sport #EE {
+a.sport #FF3 {
 display: none;
-top: 135px;
-left: 300px;
+top: 65px;
+left: 330px;
 }
-a.sport:hover #EE  {
+a.sport:hover #FF3  {
 display: inline;
 position: absolute;
 
 }
+a.sport #FF4 {
+display: none;
+top: 105px;
+left: 330px;
+}
+a.sport:hover #FF4  {
+display: inline;
+position: absolute;
+}
+a.sport #EE {
+display: none;
+top: 155px;
+left: 310px;
+}
+a.sport:hover #EE  {
+display: inline;
+position: absolute;
+}
 a.sport #EE1 {
 display: none;
-top: 140px;
+top: 160px;
 left: 380px;
 }
 a.sport:hover #EE1  {
 display: inline;
 position: absolute;
-
 }
 a.ville #DD {
 display: none;
@@ -288,7 +305,7 @@ font-size: 23px;
 left: 1020px;
 position: absolute;
 top: -70px;
-font-family: bold;
+font-family: Calibri,'Open Sans', Arial, sans-serif;
 }
 /*a {
   
@@ -391,17 +408,18 @@ a.sport:hover {
 }
 a.sport #FF {
 display: none;
-top: -35px;
-left: 345px;
+top: -55px;
+left: 350px;
 }
 a.sport:hover #FF  {
 display: inline;
 position: absolute;
+ 
 }
 a.sport #FF1 {
 display: none;
-top: 25px;
-left: 345px;
+top: -15px;
+left: 350px;
 }
 a.sport:hover #FF1  {
 display: inline;
@@ -409,16 +427,34 @@ position: absolute;
 }
 a.sport #FF2 {
 display: none;
-top: 90px;
-left: 345px;
+top: 28px;
+left: 330px;
 }
 a.sport:hover #FF2  {
 display: inline;
 position: absolute;
 }
+a.sport #FF3 {
+display: none;
+top: 65px;
+left: 350px;
+}
+a.sport:hover #FF3  {
+display: inline;
+position: absolute;
+}
+a.sport #FF4 {
+display: none;
+top: 105px;
+left: 350px;
+}
+a.sport:hover #FF4  {
+display: inline;
+position: absolute;
+}
 a.sport #EE {
 display: none;
-top: 135px;
+top: 155px;
 left: 330px;
 }
 a.sport:hover #EE  {
@@ -427,7 +463,7 @@ position: absolute;
 }
 a.sport #EE1 {
 display: none;
-top: 140px;
+top: 160px;
 left: 400px;
 }
 a.sport:hover #EE1  {
@@ -517,7 +553,7 @@ font-size: 23px;
 left: 950px;
 position: absolute;
 top: -90px;
-font-family: bold;
+font-family: Calibri,'Open Sans', Arial, sans-serif;
 }
 /*a {
   
@@ -619,7 +655,7 @@ a.sport:hover {
 }
 a.sport #FF {
 display: none;
-top: -35px;
+top: -55px;
 left: 260px;
 }
 a.sport:hover #FF  {
@@ -628,7 +664,7 @@ position: absolute;
 }
 a.sport #FF1 {
 display: none;
-top: 25px;
+top: -15px;
 left: 260px;
 }
 a.sport:hover #FF1  {
@@ -637,16 +673,34 @@ position: absolute;
 }
 a.sport #FF2 {
 display: none;
-top: 90px;
-left: 260px;
+top: 28px;
+left: 240px;
 }
 a.sport:hover #FF2  {
 display: inline;
 position: absolute;
 }
+a.sport #FF3 {
+display: none;
+top: 65px;
+left: 260px;
+}
+a.sport:hover #FF3  {
+display: inline;
+position: absolute;
+}
+a.sport #FF4 {
+display: none;
+top: 105px;
+left: 260px;
+}
+a.sport:hover #FF4  {
+display: inline;
+position: absolute;
+}
 a.sport #EE {
 display: none;
-top: 135px;
+top: 155px;
 left: 240px;
 }
 a.sport:hover #EE  {
@@ -655,8 +709,8 @@ position: absolute;
 }
 a.sport #EE1 {
 display: none;
-top: 140px;
-left: 315px;
+top: 160px;
+left: 310px;
 }
 a.sport:hover #EE1  {
 display: inline;
@@ -745,7 +799,7 @@ font-size: 23px;
 left: 950px;
 position: absolute;
 top: -90px;
-font-family: bold;
+font-family: Calibri,'Open Sans', Arial, sans-serif;
 }
 /*a {
   
@@ -847,8 +901,8 @@ a.sport:hover {
 }
 a.sport #FF {
 display: none;
-top: -50px;
-left: 200px;
+top: -55px;
+left: 210px;
 }
 a.sport:hover #FF  {
 display: inline;
@@ -856,8 +910,8 @@ position: absolute;
 }
 a.sport #FF1 {
 display: none;
-top: 10px;
-left: 200px;
+top: -15px;
+left: 210px;
 }
 a.sport:hover #FF1  {
 display: inline;
@@ -865,16 +919,34 @@ position: absolute;
 }
 a.sport #FF2 {
 display: none;
-top: 70px;
-left: 200px;
+top: 28px;
+left: 190px;
 }
 a.sport:hover #FF2  {
 display: inline;
 position: absolute;
 }
+a.sport #FF3 {
+display: none;
+top: 65px;
+left: 210px;
+}
+a.sport:hover #FF3  {
+display: inline;
+position: absolute;
+}
+a.sport #FF4 {
+display: none;
+top: 105px;
+left: 210px;
+}
+a.sport:hover #FF4  {
+display: inline;
+position: absolute;
+}
 a.sport #EE {
 display: none;
-top: 120px;
+top: 155px;
 left: 190px;
 }
 a.sport:hover #EE  {
@@ -883,7 +955,7 @@ position: absolute;
 }
 a.sport #EE1 {
 display: none;
-top: 125px;
+top: 160px;
 left: 260px;
 }
 a.sport:hover #EE1  {
@@ -973,7 +1045,7 @@ font-size: 23px;
 left: 950px;
 position: absolute;
 top: -90px;
-font-family: bold;
+font-family: Calibri,'Open Sans', Arial, sans-serif;
 }
 /*a {
   
@@ -1075,8 +1147,8 @@ a.sport:hover {
 }
 a.sport #FF {
 display: none;
-top: -50px;
-left: 200px;
+top: -55px;
+left: 210px;
 }
 a.sport:hover #FF  {
 display: inline;
@@ -1084,8 +1156,8 @@ position: absolute;
 }
 a.sport #FF1 {
 display: none;
-top: 10px;
-left: 200px;
+top: -15px;
+left: 210px;
 }
 a.sport:hover #FF1  {
 display: inline;
@@ -1093,16 +1165,34 @@ position: absolute;
 }
 a.sport #FF2 {
 display: none;
-top: 70px;
-left: 200px;
+top: 28px;
+left: 190px;
 }
 a.sport:hover #FF2  {
 display: inline;
 position: absolute;
 }
+a.sport #FF3 {
+display: none;
+top: 65px;
+left: 210px;
+}
+a.sport:hover #FF3  {
+display: inline;
+position: absolute;
+}
+a.sport #FF4 {
+display: none;
+top: 105px;
+left: 210px;
+}
+a.sport:hover #FF4  {
+display: inline;
+position: absolute;
+}
 a.sport #EE {
 display: none;
-top: 120px;
+top: 155px;
 left: 190px;
 }
 a.sport:hover #EE  {
@@ -1111,7 +1201,7 @@ position: absolute;
 }
 a.sport #EE1 {
 display: none;
-top: 125px;
+top: 160px;
 left: 260px;
 }
 a.sport:hover #EE1  {
@@ -1200,7 +1290,7 @@ font-size: 23px;
 left: 900px;
 position: absolute;
 top: -70px;
-font-family: bold;
+font-family: Calibri,'Open Sans', Arial, sans-serif;
 }
 /*a {
   
@@ -1306,7 +1396,7 @@ margin-left: 22px;
 }
 a.sport #FF {
 display: none;
-top: 10px;
+top: -15px;
 left: 170px;
 }
 a.sport:hover #FF  {
@@ -1315,7 +1405,7 @@ position: absolute;
 }
 a.sport #FF1 {
 display: none;
-top: 60px;
+top: 25px;
 left: 170px;
 }
 a.sport:hover #FF1  {
@@ -1324,17 +1414,35 @@ position: absolute;
 }
 a.sport #FF2 {
 display: none;
-top: 120px;
-left: 170px;
+top: 68px;
+left: 160px;
 }
 a.sport:hover #FF2  {
 display: inline;
 position: absolute;
 }
+a.sport #FF3 {
+display: none;
+top: 105px;
+left: 170px;
+}
+a.sport:hover #FF3  {
+display: inline;
+position: absolute;
+}
+a.sport #FF4 {
+display: none;
+top: 145px;
+left: 170px;
+}
+a.sport:hover #FF4  {
+display: inline;
+position: absolute;
+}
 a.sport #EE {
 display: none;
-top: 170px;
-left: 160px;
+top: 195px;
+left: 150px;
 }
 a.sport:hover #EE  {
 display: inline;
@@ -1342,8 +1450,8 @@ position: absolute;
 }
 a.sport #EE1 {
 display: none;
-top: 175px;
-left: 230px;
+top: 200px;
+left: 220px;
 }
 a.sport:hover #EE1  {
 display: inline;
@@ -1431,7 +1539,7 @@ font-size: 23px;
 left: 730px;
 position: absolute;
 top: -70px;
-font-family: bold;
+font-family: Calibri,'Open Sans', Arial, sans-serif;
 }
 /*a {
   
@@ -1539,8 +1647,8 @@ margin-left: 22px;
 }
 a.sport #FF {
 display: none;
-top: 10px;
-left: 140px;
+top: -15px;
+left: 150px;
 }
 a.sport:hover #FF  {
 display: inline;
@@ -1548,8 +1656,8 @@ position: absolute;
 }
 a.sport #FF1 {
 display: none;
-top: 60px;
-left: 140px;
+top: 25px;
+left: 150px;
 }
 a.sport:hover #FF1  {
 display: inline;
@@ -1557,16 +1665,34 @@ position: absolute;
 }
 a.sport #FF2 {
 display: none;
-top: 120px;
-left: 140px;
+top: 68px;
+left: 130px;
 }
 a.sport:hover #FF2  {
 display: inline;
 position: absolute;
 }
+a.sport #FF3 {
+display: none;
+top: 105px;
+left: 150px;
+}
+a.sport:hover #FF3  {
+display: inline;
+position: absolute;
+}
+a.sport #FF4 {
+display: none;
+top: 145px;
+left: 150px;
+}
+a.sport:hover #FF4  {
+display: inline;
+position: absolute;
+}
 a.sport #EE {
 display: none;
-top: 170px;
+top: 195px;
 left: 130px;
 }
 a.sport:hover #EE  {
@@ -1575,7 +1701,7 @@ position: absolute;
 }
 a.sport #EE1 {
 display: none;
-top: 175px;
+top: 200px;
 left: 200px;
 }
 a.sport:hover #EE1  {
@@ -1664,7 +1790,7 @@ font-size: 23px;
 left: 590px;
 position: absolute;
 top: -50px;
-font-family: bold;
+font-family: Calibri,'Open Sans', Arial, sans-serif;
 }
 /*a {
   
@@ -1776,8 +1902,8 @@ margin-left: 22px;
 }
 a.sport #FF {
 display: none;
-top: 10px;
-left: 100px;
+top: -15px;
+left: 110px;
 }
 a.sport:hover #FF  {
 display: inline;
@@ -1785,8 +1911,9 @@ position: absolute;
 }
 a.sport #FF1 {
 display: none;
-top: 60px;
-left: 100px;
+top: 20px;
+left: 125px;
+width: 80px;
 }
 a.sport:hover #FF1  {
 display: inline;
@@ -1794,17 +1921,37 @@ position: absolute;
 }
 a.sport #FF2 {
 display: none;
-top: 120px;
-left: 100px;
+top: 55px;
+left: 95px;
 }
 a.sport:hover #FF2  {
 display: inline;
 position: absolute;
 }
+a.sport #FF3 {
+display: none;
+top: 92px;
+left: 110px;
+}
+a.sport:hover #FF3  {
+display: inline;
+position: absolute;
+}
+a.sport #FF4 {
+display: none;
+top: 135px;
+left: 120px;
+width: 90px;
+}
+a.sport:hover #FF4  {
+display: inline;
+position: absolute;
+}
 a.sport #EE {
 display: none;
-top: 170px;
-left: 90px;
+top: 175px;
+left: 95px;
+width: 70px;
 }
 a.sport:hover #EE  {
 display: inline;
@@ -1812,8 +1959,9 @@ position: absolute;
 }
 a.sport #EE1 {
 display: none;
-top: 175px;
+top: 180px;
 left: 160px;
+width: 60px;
 }
 a.sport:hover #EE1  {
 display: inline;
@@ -1901,7 +2049,7 @@ font-size: 23px;
 left: 590px;
 position: absolute;
 top: -50px;
-font-family: bold;
+font-family: Calibri,'Open Sans', Arial, sans-serif;
 }
 /*a {
   
@@ -2013,8 +2161,8 @@ margin-left: 22px;
 }
 a.sport #FF {
 display: none;
-top: 10px;
-left: 90px;
+top: -15px;
+left: 100px;
 }
 a.sport:hover #FF  {
 display: inline;
@@ -2022,8 +2170,9 @@ position: absolute;
 }
 a.sport #FF1 {
 display: none;
-top: 60px;
-left: 90px;
+top: 20px;
+left: 115px;
+width: 80px;
 }
 a.sport:hover #FF1  {
 display: inline;
@@ -2031,17 +2180,37 @@ position: absolute;
 }
 a.sport #FF2 {
 display: none;
-top: 120px;
-left: 90px;
+top: 55px;
+left: 85px;
 }
 a.sport:hover #FF2  {
 display: inline;
 position: absolute;
 }
+a.sport #FF3 {
+display: none;
+top: 92px;
+left: 100px;
+}
+a.sport:hover #FF3  {
+display: inline;
+position: absolute;
+}
+a.sport #FF4 {
+display: none;
+top: 135px;
+left: 110px;
+width: 90px;
+}
+a.sport:hover #FF4  {
+display: inline;
+position: absolute;
+}
 a.sport #EE {
 display: none;
-top: 170px;
-left: 80px;
+top: 175px;
+left: 85px;
+width: 70px;
 }
 a.sport:hover #EE  {
 display: inline;
@@ -2049,8 +2218,9 @@ position: absolute;
 }
 a.sport #EE1 {
 display: none;
-top: 175px;
+top: 180px;
 left: 150px;
+width: 60px;
 }
 a.sport:hover #EE1  {
 display: inline;
@@ -2138,7 +2308,7 @@ font-size: 23px;
 left: 440px;
 position: absolute;
 top: -40px;
-font-family: bold;
+font-family: Calibri,'Open Sans', Arial, sans-serif;
 }
 /*a {
   
@@ -2254,8 +2424,8 @@ margin-top: 220px;
 }
 a.sport #FF {
 display: none;
-top: 10px;
-left: 60px;
+top: -15px;
+left: 70px;
 }
 a.sport:hover #FF  {
 display: inline;
@@ -2263,8 +2433,9 @@ position: absolute;
 }
 a.sport #FF1 {
 display: none;
-top: 60px;
-left: 60px;
+top: 20px;
+left: 85px;
+width: 80px;
 }
 a.sport:hover #FF1  {
 display: inline;
@@ -2272,17 +2443,37 @@ position: absolute;
 }
 a.sport #FF2 {
 display: none;
-top: 120px;
-left: 60px;
+top: 55px;
+left: 55px;
 }
 a.sport:hover #FF2  {
 display: inline;
 position: absolute;
 }
+a.sport #FF3 {
+display: none;
+top: 92px;
+left: 80px;
+}
+a.sport:hover #FF3  {
+display: inline;
+position: absolute;
+}
+a.sport #FF4 {
+display: none;
+top: 135px;
+left: 80px;
+width: 90px;
+}
+a.sport:hover #FF4  {
+display: inline;
+position: absolute;
+}
 a.sport #EE {
 display: none;
-top: 170px;
-left: 50px;
+top: 175px;
+left: 65px;
+width: 60px;
 }
 a.sport:hover #EE  {
 display: inline;
@@ -2290,8 +2481,9 @@ position: absolute;
 }
 a.sport #EE1 {
 display: none;
-top: 175px;
-left: 120px;
+top: 180px;
+left: 130px;
+width: 50px;
 }
 a.sport:hover #EE1  {
 display: inline;
@@ -2379,7 +2571,7 @@ font-size: 23px;
 left: 240px;
 position: absolute;
 top: -40px;
-font-family: bold;
+font-family: Calibri,'Open Sans', Arial, sans-serif;
 }
 /*a {
   
@@ -2495,9 +2687,8 @@ margin-top: 240px;
 }
 a.sport #FF {
 display: none;
-top: 0px;
-left: 0px;
-width: 80px;
+top: -15px;
+left: -15px;
 }
 a.sport:hover #FF  {
 display: inline;
@@ -2505,9 +2696,9 @@ position: absolute;
 }
 a.sport #FF1 {
 display: none;
-top: 45px;
-left: 5px;
-width: 70px;
+top: 20px;
+left: 3px;
+width: 80px;
 }
 a.sport:hover #FF1  {
 display: inline;
@@ -2515,19 +2706,39 @@ position: absolute;
 }
 a.sport #FF2 {
 display: none;
-top: 90px;
-left: 0px;
-width: 80px;
+top: 55px;
+left: -15px;
+width: 100px;
 }
 a.sport:hover #FF2  {
 display: inline;
 position: absolute;
 }
+a.sport #FF3 {
+display: none;
+top: 95px;
+left: 0px;
+width: 80px;
+}
+a.sport:hover #FF3  {
+display: inline;
+position: absolute;
+}
+a.sport #FF4 {
+display: none;
+top: 130px;
+left: 0px;
+width: 80px;
+}
+a.sport:hover #FF4  {
+display: inline;
+position: absolute;
+}
 a.sport #EE {
 display: none;
-top: 120px;
-left: 10px;
-width: 70px;
+top: 175px;
+left: -5px;
+width: 50px;
 }
 a.sport:hover #EE  {
 display: inline;
@@ -2535,9 +2746,9 @@ position: absolute;
 }
 a.sport #EE1 {
 display: none;
-top: 185px;
-left: 15px;
-width: 60px;
+top: 177px;
+left: 40px;
+width: 45px;
 }
 a.sport:hover #EE1  {
 display: inline;
@@ -2606,10 +2817,10 @@ position: absolute;
 }
 
 .site-title-font {
-  font-family: 'Open Sans', Arial, sans-serif;
+  font-family: Calibri,'Open Sans', Arial, sans-serif;
 }
 .body-font {
-  font-family: "Open Sans", sans-serif;
+  font-family: Calibri,'Open Sans', Arial, sans-serif;
 }
 /*
  ------------------- Pre Requisite/Reset ----------------
@@ -2622,7 +2833,7 @@ a:hover {
 }
 body {
   overflow-x: hidden;
-  font-family: "Open Sans", sans-serif;
+  font-family: Calibri,'Open Sans', Arial, sans-serif;
   color: #3a85ae;
 }
 #content {
@@ -2736,7 +2947,7 @@ a:hover {
   margin-bottom: 20px;
 }
 #masthead .site-title {
-  font-family: 'Open Sans', Arial, sans-serif;
+  font-family: Calibri,'Open Sans', Arial, sans-serif;
   position: relative;
   padding-top: 8px;
   /*margin-top: 7px;*/
@@ -2777,7 +2988,7 @@ a:hover {
   color: #3a3a3a;
   padding: 38px 15px;
   padding-bottom: 58px;
-  font-family: "Open Sans", sans-serif;
+  font-family: Calibri,'Open Sans', Arial, sans-serif;
 }
 #top-nav #site-navigation a:hover {
   color: #3a85ae;
@@ -2845,7 +3056,7 @@ a:hover {
 }
 @media screen and (max-width: 600px) {
   #top-nav h1.menu-toggle {
-    font-family: 'Open Sans', Arial, sans-serif;
+    font-family: Calibri,'Open Sans', Arial, sans-serif;
     font-size: 18px;
     text-transform: uppercase;
     margin-bottom: 15px;
@@ -2890,7 +3101,7 @@ a:hover {
   color: white;
 }
 #slider-wrapper .slider-caption .slider-caption-title {
-  font-family: "Open Sans", sans-serif;
+  font-family: Calibri,'Open Sans', Arial, sans-serif;
   font-size: 34px;
   text-shadow: 2px 2px 0px #3a3a3a, 0 0 7px #bababa;
   background: rgba(58, 133, 174, 0.2);
@@ -2901,7 +3112,7 @@ a:hover {
   float: left;
 }
 #slider-wrapper .slider-caption .slider-caption-desc {
-  font-family: "Open Sans", sans-serif;
+  font-family: Calibri,'Open Sans', Arial, sans-serif;
   font-size: 16px;
   font-weight: bold;
   text-shadow: 1px 1px 4px #3a3a3a;
@@ -3074,7 +3285,7 @@ a:hover {
   z-index: 99999;
 }
 #showcase .showcase figure .showcase-caption .showcase-caption-title {
-  font-family: 'Open Sans', Arial, sans-serif;
+  font-family: Calibri,'Open Sans', Arial, sans-serif;
   font-size: 17px;
 }
 #showcase .showcase figure .showcase-caption .showcase-caption-desc {
@@ -3138,7 +3349,7 @@ a:hover {
   margin-top: -20px;
 }
 #home-title {
-  font-family: 'Open Sans', Arial, sans-serif;
+  font-family: Calibri,'Open Sans', Arial, sans-serif;
   font-size: 22px;
   display: inline-block;
   padding-bottom: 10px;
@@ -3178,7 +3389,7 @@ a:hover {
 #primary article .after-thumb h1.entry-title {
   margin-top: 4px;
   margin-bottom: 0px;
-  font-family: 'Open Sans', Arial, sans-serif;
+  font-family: Calibri,'Open Sans', Arial, sans-serif;
 }
 #primary .entry-content {
   margin-top: 0.3em;
@@ -3194,7 +3405,7 @@ a:hover {
   margin-bottom: 3px;
 }
 #primary article.grid h1.entry-title {
-  font-family: 'Open Sans', Arial, sans-serif;
+  font-family: Calibri,'Open Sans', Arial, sans-serif;
   font-size: 16px;
   margin-top: 12px;
   margin-bottom: 12px;
@@ -3318,7 +3529,7 @@ a:hover {
   line-height: 1.5em;
 }
 #primary article.grid2 .out-thumb .readmore {
-  font-family: 'Open Sans', Arial, sans-serif;
+  font-family: Calibri,'Open Sans', Arial, sans-serif;
   text-align: right;
   font-size: 13px;
   margin-top: 10px;
@@ -3396,7 +3607,7 @@ a:hover {
   line-height: 1.6em;
 }
 #primary article.grid3 .out-thumb .readmore {
-  font-family: 'Open Sans', Arial, sans-serif;
+  font-family: Calibri,'Open Sans', Arial, sans-serif;
   font-size: 13px;
   margin-top: 10px;
 }
@@ -3437,7 +3648,7 @@ a:hover {
   margin-top: -25px;
 }
 #primary-mono h1.entry-title {
-  font-family: 'Open Sans', Arial, sans-serif;
+  font-family: Calibri,'Open Sans', Arial, sans-serif;
   font-size: 32px;
 }
 #primary-mono .entry-meta {
@@ -3498,7 +3709,7 @@ a:hover {
   background: #eee;
   color: black;
   font-weight: bold;
-  font-family: 'Open Sans', Arial, sans-serif;
+  font-family: Calibri,'Open Sans', Arial, sans-serif;
 }
 #primary-mono article.page h1.entry-title {
   border-bottom: solid 2px #3a85ae;
@@ -3509,7 +3720,7 @@ a:hover {
   background: url(../images/pattern2.png);
   padding: 10px 15px;
   display: inline-block;
-  font-family: 'Open Sans', Arial, sans-serif;
+  font-family: Calibri,'Open Sans', Arial, sans-serif;
   font-size: 15px;
   text-transform: uppercase;
   font-weight: normal;
@@ -3546,7 +3757,7 @@ a:hover {
 }
 #secondary .widget > ul li:before {
   content: "\f105";
-  font-family: "FontAwesome";
+  font-family: Calibri,'Open Sans', Arial, sans-serif;
   margin-right: 6px;
 }
 .widget .facebook{
@@ -3560,7 +3771,7 @@ background-image: url(http://localhost/wordpress/wp-content/uploads/2015/12/Face
   padding-left: 1px;
   margin-top: 0px;
   margin-bottom: 10px;
-  font-family: 'Open Sans', Arial, sans-serif;
+  font-family: Calibri,'Open Sans', Arial, sans-serif;
   font-weight: bold;
   color: #686868;
 }
@@ -3601,7 +3812,7 @@ article table td {
 article h1,
 article h2,
 article h3 {
-  font-family: 'Open Sans', Arial, sans-serif;
+  font-family: Calibri,'Open Sans', Arial, sans-serif;
 }
 /* --------------- archives -------------- */
 .archive section#primary h1.page-title {
@@ -3613,7 +3824,7 @@ article h3 {
   background: url(../images/pattern2.png);
   padding: 10px 15px;
   display: inline-block;
-  font-family: 'Open Sans', Arial, sans-serif;
+  font-family: Calibri,'Open Sans', Arial, sans-serif;
   font-size: 15px;
   text-transform: uppercase;
   font-weight: normal;
@@ -3685,7 +3896,7 @@ article h3 {
 }
 #comments h2.comments-title {
   font-size: x-large;
-  font-family: 'Open Sans', Arial, sans-serif;
+  font-family: Calibri,'Open Sans', Arial, sans-serif;
 }
 #comments ol.comment-list {
   list-style: none;
@@ -3742,7 +3953,7 @@ article h3 {
 }
 #footer-sidebar h1.widget-title {
   font-weight: bold;
-  font-family: 'Open Sans', Arial, sans-serif;
+  font-family: Calibri,'Open Sans', Arial, sans-serif;
   font-size: 16px;
   color: #e5e5e5;
   margin-bottom: 20px;
@@ -3758,7 +3969,7 @@ article h3 {
 }
 #footer-sidebar .widget_recent_comments li:before {
   content: "\f075" !important;
-  font-family: "FontAwesome";
+  font-family: Calibri,'Open Sans', Arial, sans-serif;
   margin-right: 6px;
 }
 #footer-sidebar .widget > ul {
@@ -3772,7 +3983,7 @@ article h3 {
 }
 #footer-sidebar .widget > ul li:before {
   content: "\f105";
-  font-family: "FontAwesome";
+  font-family: Calibri,'Open Sans', Arial, sans-serif;
   margin-right: 6px;
 }
 #footer-sidebar .widget_nav_menu ul.menu {
@@ -3786,7 +3997,7 @@ article h3 {
 }
 #footer-sidebar .widget_nav_menu ul.menu > li:before {
   content: "\f054";
-  font-family: "FontAwesome";
+  font-family: Calibri,'Open Sans', Arial, sans-serif;
   margin-right: 6px;
 }
 #footer-sidebar .widget_nav_menu ul.menu > li ul {
@@ -3806,7 +4017,7 @@ article h3 {
 }
 #footer-sidebar .widget_recent_entries li:before {
   content: "\f0f6" !important;
-  font-family: "FontAwesome";
+  font-family: Calibri,'Open Sans', Arial, sans-serif;
   margin-right: 6px;
 }
 #secondary .woocommerce ul.product_list_widget,
